@@ -19,5 +19,10 @@ namespace WinFormsApp3
                 MessageBox.Show("Test");
             }
         }
+
+        public static void Login()
+        {
+
+        }
     }
 }
