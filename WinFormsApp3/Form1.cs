@@ -6,5 +6,18 @@ namespace WinFormsApp3
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            while (true)
+            {
+                MessageBox.Show("Test");
+            }
+        }
     }
 }
