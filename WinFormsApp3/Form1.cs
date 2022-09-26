@@ -6,5 +6,10 @@ namespace WinFormsApp3
         {
             InitializeComponent();
         }
+
+        public static void Login()
+        {
+
+        }
     }
 }
