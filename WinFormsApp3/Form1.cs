@@ -9,7 +9,12 @@ namespace WinFormsApp3
 
         public static void Login()
         {
+            
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Không giòn");
         }
     }
 }
