@@ -16,7 +16,10 @@ namespace WinFormsApp3
         {
             while (true)
             {
-                MessageBox.Show("Test");
+              if(MessageBox.Show("Có giòn không","Thông báo",MessageBoxButtons.YesNo)== DialogResult.Yes)
+                {
+                    break;
+                }
             }
         }
 
