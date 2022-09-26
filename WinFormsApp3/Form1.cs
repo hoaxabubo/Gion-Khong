@@ -22,7 +22,8 @@ namespace WinFormsApp3
 
         public static void Login()
         {
-
+            HttpClient client = new HttpClient();
+            
         }
     }
 }
